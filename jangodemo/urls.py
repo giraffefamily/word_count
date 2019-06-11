@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('xiaopangbao/', function.home),
     path('xiaopangbao/cc/', function.count),
-    path('about/', function.about),
+    #path('', function.home),
+    path('xiaopangbao/about/', function.about),
 ]
